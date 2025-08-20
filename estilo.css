@@ -1,3 +1,32 @@
 body {
-background-color: turquoise;
+background-color: rgb(255, 213, 237);
+}
+
+.parrafo {
+    color:rgb(29, 15, 5);
+    background-color: rgb(177, 144, 135);
+}
+
+#parrafoUnico {
+   color:whitesmoke;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#contenedor1 {
+width: 50vw;
+height: 80vh;
+border: 1px solid hotpink;
+}
+
+#contenedor2 {
+width: 50vw;
+height: 80vh;
+border: 1px solid hotpink;
+margin: 50px 
+}
+
+.figura {
+    width: 25%;
+    height: 25%;
+    border: 5px solid palegreen;
 }
