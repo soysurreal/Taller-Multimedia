@@ -16,17 +16,48 @@ background-color: rgb(255, 213, 237);
 width: 50vw;
 height: 80vh;
 border: 1px solid hotpink;
+position: relative;
 }
 
 #contenedor2 {
 width: 50vw;
 height: 80vh;
 border: 1px solid hotpink;
-margin: 50px 
+margin-top: 200px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-direction: row-reverse;
+align-content: space-around;
+flex-wrap: wrap;
 }
 
 .figura {
     width: 25%;
     height: 25%;
     border: 5px solid palegreen;
+  
+}
+
+.rombo {
+  width: 25%;
+    height: 25%;
+    background-color: oldlace;
+    border: 5px solid royalblue;
+    position: absolute
+}
+
+#cuadro1 {
+top: 11%;
+left: 11%;
+}
+
+#cuadro2 {
+top: 22%;
+left: 22%;
+}
+
+#cuadro3 {
+top: 33%;
+left: 33%;
 }
