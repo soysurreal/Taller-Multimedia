@@ -36,7 +36,6 @@ flex-wrap: wrap;
     width: 25%;
     height: 25%;
     border: 5px solid palegreen;
-  
 }
 
 .rombo {
@@ -61,3 +60,131 @@ left: 22%;
 top: 33%;
 left: 33%;
 }
+
+#tituloDibujo {
+text-align: center;
+}
+
+#lienzo {
+width: 700px;
+height: 600px;
+background-image: url("https://cdn.media.amplience.net/i/boconcept/7dd460f6-5215-45ae-93d6-ae3000e36cf7?locale=*&w=3020&fmt=auto&upscale=false&sm=c&qlt=75");
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid black;
+margin: 0 auto;
+position: relative;
+}
+
+.circulo {
+    width: 200px; 
+    height: 200px; 
+    
+    background-color: bisque;
+    border-radius: 50%;
+    position: absolute; 
+    top: 200px; 
+    left: 235px; 
+}
+
+.ojo {
+    width: 15px; 
+    height: 15px; 
+    
+    background-color: lightslategray;
+    border-radius: 50%;
+    position: absolute; 
+    top: 270px; 
+    left: 360px; 
+}
+
+.ojo1 {
+    width: 15px; 
+    height: 15px; 
+    
+    background-color: lightslategray;
+    border-radius: 50%;
+    position: absolute; 
+    top: 270px; 
+    left: 290px; 
+}
+
+
+.cuadrado {
+    width: 30px;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+
+.cuadrado1 {
+    width: 30px;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 390px;
+}
+
+.lineaHorizontal {
+    width: 50px;
+    height: 0px;
+    border: 2px solid sienna;
+    position: absolute;
+    top: 340px;
+    left: 220px;
+}
+
+.bigo {
+    width: 50px;
+    height: 0px;
+    border: 2px solid sienna;
+    position: absolute;
+    top: 320px;
+    left: 220px;
+}
+
+.bigo2 {
+    width: 50px;
+    height: 0px;
+    border: 2px solid sienna;
+    position: absolute;
+    top: 320px;
+    left: 395px;
+}
+
+.bigo3 {
+    width: 50px;
+    height: 0px;
+    border: 2px solid sienna;
+    position: absolute;
+    top: 340px;
+    left: 395px;
+}
+
+.lineaVertical {
+    width:5px; 
+    height: 10px; 
+    
+    background-color: palevioletred;
+    border-radius: 50%;
+    position: absolute; 
+    top: 320px; 
+    left: 335px; 
+}
+
+.lineaHorizontal2 {
+    width: 10px;
+    height: 0px;
+    border: 2px solid crimson;
+    border-radius: 50%;
+    position: absolute;
+    top: 360px;
+    left: 330px;
+}
+
+
