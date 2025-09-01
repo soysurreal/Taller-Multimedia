@@ -2,6 +2,47 @@ body {
 background-color: rgb(255, 213, 237);
 }
 
+.titulo {
+font-family: "Story Script", monospace;
+font-weight: 500;
+font-style: normal;
+font-size: 5em
+}
+
+.titulo:hover {
+font-weight: 700;
+color:cyan;
+cursor: pointer;
+}
+
+@keyframes redondear {
+0% {
+    border-radius: 0%;
+    background-color: cyan;
+}
+50% {
+    border-radius: 25%;
+    background-color: darkslategray;
+}
+
+100%{
+    border-radius: 50%;
+    background-color:lightseagreen;
+}
+}
+
+.cuadrad0 {
+width: 100px;
+height: 100px;
+background-color: darkslateblue;
+border: 1px solid aliceblue;
+position: absolute;
+}
+
+.cuadrad0:hover {
+animation: redondear 2s linear infinite alternate; 
+}
+
 .parrafo {
     color:rgb(29, 15, 5);
     background-color: rgb(177, 144, 135);
