@@ -10,10 +10,31 @@ font-size: 5em
 }
 
 .titulo:hover {
-font-weight: 700;
-color:rgb(255, 0, 157);
+text-align: center;
+font-size: normal;
+color: red;
 cursor: pointer;
 }
+
+.remo {
+text-align: center;
+color: blue;
+}
+.parrafo {
+color: black;
+text-align: center;
+background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 @keyframes redondear {
 0% {
@@ -41,11 +62,6 @@ position: absolute;
 
 .cuadrad0:hover {
 animation: redondear 2s linear infinite alternate; 
-}
-
-.parrafo {
-    color:rgb(29, 15, 5);
-    background-color: rgb(177, 144, 135);
 }
 
 #parrafoUnico {
