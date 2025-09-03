@@ -11,7 +11,7 @@ font-size: 5em
 
 .titulo:hover {
 font-weight: 700;
-color:cyan;
+color:rgb(255, 0, 157);
 cursor: pointer;
 }
 
